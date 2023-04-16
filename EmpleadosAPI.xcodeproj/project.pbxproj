@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320C03D529E7BC0F00C81AE4 /* EmpleadoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03D429E7BC0F00C81AE4 /* EmpleadoModel.swift */; };
+		320C03D729E7BCD800C81AE4 /* MaestrosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03D629E7BCD800C81AE4 /* MaestrosModel.swift */; };
+		320C03D929E7BCEF00C81AE4 /* APIRestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03D829E7BCEF00C81AE4 /* APIRestModel.swift */; };
+		320C03DB29E7BD0800C81AE4 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03DA29E7BD0800C81AE4 /* Interface.swift */; };
+		320C03DD29E7BD4300C81AE4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03DC29E7BD4300C81AE4 /* Persistence.swift */; };
+		320C03DF29E7BD5200C81AE4 /* PersistenceCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03DE29E7BD5200C81AE4 /* PersistenceCombine.swift */; };
+		320C03E129E7BD6A00C81AE4 /* EmpleadoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03E029E7BD6A00C81AE4 /* EmpleadoVM.swift */; };
+		320C03E329E7BD7800C81AE4 /* EmpleadoCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03E229E7BD7800C81AE4 /* EmpleadoCVM.swift */; };
+		320C03E529E7BD9100C81AE4 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C03E429E7BD9100C81AE4 /* RefreshButton.swift */; };
+		3273626A29EB337400B537BC /* departamentos.json in Resources */ = {isa = PBXBuildFile; fileRef = 3273626729EB337400B537BC /* departamentos.json */; };
+		3273626B29EB337400B537BC /* empleadosTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3273626829EB337400B537BC /* empleadosTest.json */; };
+		3273626C29EB337400B537BC /* generos.json in Resources */ = {isa = PBXBuildFile; fileRef = 3273626929EB337400B537BC /* generos.json */; };
+		3273626E29EB37A500B537BC /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3273626D29EB37A500B537BC /* PersistenceTests.swift */; };
 		329FCAD829E486A300BD9C11 /* EmpleadosAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FCAD729E486A300BD9C11 /* EmpleadosAPIApp.swift */; };
 		329FCADA29E486A300BD9C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FCAD929E486A300BD9C11 /* ContentView.swift */; };
 		329FCADC29E486A500BD9C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FCADB29E486A500BD9C11 /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320C03D429E7BC0F00C81AE4 /* EmpleadoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoModel.swift; sourceTree = "<group>"; };
+		320C03D629E7BCD800C81AE4 /* MaestrosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaestrosModel.swift; sourceTree = "<group>"; };
+		320C03D829E7BCEF00C81AE4 /* APIRestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRestModel.swift; sourceTree = "<group>"; };
+		320C03DA29E7BD0800C81AE4 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		320C03DC29E7BD4300C81AE4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		320C03DE29E7BD5200C81AE4 /* PersistenceCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceCombine.swift; sourceTree = "<group>"; };
+		320C03E029E7BD6A00C81AE4 /* EmpleadoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoVM.swift; sourceTree = "<group>"; };
+		320C03E229E7BD7800C81AE4 /* EmpleadoCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoCVM.swift; sourceTree = "<group>"; };
+		320C03E429E7BD9100C81AE4 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		3273626729EB337400B537BC /* departamentos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departamentos.json; sourceTree = "<group>"; };
+		3273626829EB337400B537BC /* empleadosTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empleadosTest.json; sourceTree = "<group>"; };
+		3273626929EB337400B537BC /* generos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generos.json; sourceTree = "<group>"; };
+		3273626D29EB37A500B537BC /* PersistenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
 		329FCAD429E486A300BD9C11 /* EmpleadosAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpleadosAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FCAD729E486A300BD9C11 /* EmpleadosAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosAPIApp.swift; sourceTree = "<group>"; };
 		329FCAD929E486A300BD9C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +58,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		320C03D029E7B3DD00C81AE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				320C03D429E7BC0F00C81AE4 /* EmpleadoModel.swift */,
+				320C03D629E7BCD800C81AE4 /* MaestrosModel.swift */,
+				320C03D829E7BCEF00C81AE4 /* APIRestModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		320C03D129E7B3EB00C81AE4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				320C03DA29E7BD0800C81AE4 /* Interface.swift */,
+				320C03DC29E7BD4300C81AE4 /* Persistence.swift */,
+				320C03DE29E7BD5200C81AE4 /* PersistenceCombine.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		320C03D229E7B3FC00C81AE4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				320C03E429E7BD9100C81AE4 /* RefreshButton.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		320C03D329E7B41600C81AE4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				320C03E029E7BD6A00C81AE4 /* EmpleadoVM.swift */,
+				320C03E229E7BD7800C81AE4 /* EmpleadoCVM.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
 		329FCACB29E486A300BD9C11 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +116,10 @@
 			children = (
 				329FCAD729E486A300BD9C11 /* EmpleadosAPIApp.swift */,
 				329FCAD929E486A300BD9C11 /* ContentView.swift */,
+				320C03D329E7B41600C81AE4 /* ViewModels */,
+				320C03D129E7B3EB00C81AE4 /* Network */,
+				320C03D029E7B3DD00C81AE4 /* Models */,
+				320C03D229E7B3FC00C81AE4 /* Components */,
 				329FCADB29E486A500BD9C11 /* Assets.xcassets */,
 				329FCADD29E486A500BD9C11 /* Preview Content */,
 			);
@@ -63,6 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				329FCADE29E486A500BD9C11 /* Preview Assets.xcassets */,
+				3273626729EB337400B537BC /* departamentos.json */,
+				3273626829EB337400B537BC /* empleadosTest.json */,
+				3273626929EB337400B537BC /* generos.json */,
+				3273626D29EB37A500B537BC /* PersistenceTests.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3273626B29EB337400B537BC /* empleadosTest.json in Resources */,
+				3273626A29EB337400B537BC /* departamentos.json in Resources */,
 				329FCADF29E486A500BD9C11 /* Preview Assets.xcassets in Resources */,
+				3273626C29EB337400B537BC /* generos.json in Resources */,
 				329FCADC29E486A500BD9C11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +212,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				329FCADA29E486A300BD9C11 /* ContentView.swift in Sources */,
+				320C03D729E7BCD800C81AE4 /* MaestrosModel.swift in Sources */,
 				329FCAD829E486A300BD9C11 /* EmpleadosAPIApp.swift in Sources */,
+				320C03E529E7BD9100C81AE4 /* RefreshButton.swift in Sources */,
+				320C03E129E7BD6A00C81AE4 /* EmpleadoVM.swift in Sources */,
+				320C03DD29E7BD4300C81AE4 /* Persistence.swift in Sources */,
+				320C03E329E7BD7800C81AE4 /* EmpleadoCVM.swift in Sources */,
+				320C03D929E7BCEF00C81AE4 /* APIRestModel.swift in Sources */,
+				320C03DF29E7BD5200C81AE4 /* PersistenceCombine.swift in Sources */,
+				3273626E29EB37A500B537BC /* PersistenceTests.swift in Sources */,
+				320C03D529E7BC0F00C81AE4 /* EmpleadoModel.swift in Sources */,
+				320C03DB29E7BD0800C81AE4 /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
